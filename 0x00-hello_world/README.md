@@ -1,1 +1,1 @@
-reprosessig,compilling ad assembling tasks
+preprocessing,compilling and assembling
