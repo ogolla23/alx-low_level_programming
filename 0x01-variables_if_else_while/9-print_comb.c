@@ -20,3 +20,5 @@ putchar(' ');
 putchar('$');
 i++;
 }
+return (0);
+}
