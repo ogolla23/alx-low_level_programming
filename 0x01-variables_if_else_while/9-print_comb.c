@@ -3,22 +3,20 @@
 *main -Another program that writes combinations of single digits
 *Return:Always 0 (Success)
 */
+#include <stdio.h>
 
 int main(void)
 {
-int i = '0';
-while (i <= '9')
+int i = 0;
+for (i = 0; i < 10; i++)
 {
-putchar(i);
-if (i != '9')
+putchar(i + '0');
+if (i != 9)
 {
 putchar(',');
-i++;
-continue;
-}
 putchar(' ');
-putchar('$');
-i++;
 }
+}
+putchar('$');
 return (0);
 }
