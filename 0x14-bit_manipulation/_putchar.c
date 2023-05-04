@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 #include "main.h"
 /**
 *_putchar - A function that writes characters
